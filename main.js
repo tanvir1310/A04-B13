@@ -103,8 +103,6 @@ function updateDashboard() {
 
 function filterJobs(tab) {
   currentTab = tab;
-
-  // UI Tab Active state
   ["all", "interview", "rejected"].forEach((t) => {
     const el = document.getElementById(`tab-${t}`);
     if (t === tab) {
