@@ -1,4 +1,3 @@
-// Initial Job Data (8 Meaningful items)
 let jobs = [
   {
     id: 1,
