@@ -131,7 +131,7 @@ function deleteJob(id) {
   updateDashboard();
   renderJobs();
 }
-
+// renderJobs
 function renderJobs() {
   const container = document.getElementById("jobs-container");
   const emptyState = document.getElementById("empty-state");
