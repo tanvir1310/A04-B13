@@ -120,8 +120,6 @@ function filterJobs(tab) {
 function changeStatus(id, newStatus) {
   const index = jobs.findIndex((j) => j.id === id);
   if (index !== -1) {
-    // If clicking same status again, it reverts to 'all' or stays?
-    // Requirement: toggle between Interview and Rejected.
     jobs[index].status = newStatus;
     updateDashboard();
     renderJobs();
